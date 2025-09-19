@@ -1,0 +1,63 @@
+.input-group{
+    padding: 10px;
+}
+
+main{
+    background-color: rgb(248, 248, 249);
+
+}
+
+.form-label{
+    font-family:sans-serif;
+    font-weight: 800;
+}
+
+
+
+
+
+.daily-container{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;   /* para vertical align */
+    text-align: center;
+    justify-content: center;
+  gap: 10px;             /* pagitan ng items */
+  margin-bottom: 10px;   /* space bawat row */
+  font-size: 16px;       /* laki ng text */
+}
+
+.task-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  
+}
+
+.task-item img {
+  width: 20px;   /* icon size */
+  height: 20px;
+  cursor: pointer; /* para clickable */
+}
+
+.task-item label {
+ gap: 100px;
+}
+
+
+.daily-list {
+  text-align: center;
+}
+
+li{
+  text-align: center;
+}
+
+
+ 
+
+
